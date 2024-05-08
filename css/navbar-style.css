@@ -1,0 +1,141 @@
+/* font Roboto-Regular */
+@font-face {
+    font-family:Roboto;
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+/* font Roboto-Bold */
+@font-face{
+    font-family:Roboto-Bold;
+    src:url(../font/Roboto/Roboto-Bold.ttf);
+}
+/* font khmer Battambang-Regular */
+@font-face {
+    font-family:Battambang;
+    src:url(../font/Battambang/Battambang-Regular.ttf);
+}
+/* font khmer Battambang-Bold */
+@font-face {
+    font-family:Battambang-Bold;
+    src:url(../font/Battambang/Battambang-Bold.ttf);
+}
+/* font khmer Poppins-Regular */
+@font-face {
+    font-family:Poppins;
+    src:url(../font/Poppins/Poppins-Regular.ttf);
+}
+/* font khmer Poppins-Bold */
+@font-face{
+    font-family:Poppins-Bold;
+    src:url(../font/Poppins/Poppins-Bold.ttf);
+}
+/* font khmer Poppins- */
+@font-face{
+    font-family:Poppins-Medium;
+    src:url(../font/Poppins/Poppins-Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    /* background-color: #2c3e50; */
+    background-color: rgba(233,211,174,255);
+}
+.menu a{
+    height: 100%;
+    font-family:Battambang;
+    font-size:15px;
+    text-decoration: none;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    color: white;
+    display: block;
+}
+.menu .home{
+    width:110px;
+    height: 40px;
+    transition: 0.5s;
+}
+.main{
+    width: 100%;
+    height: 100px;
+    background-color: wheat;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.navbar{
+    width: 1080px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.picture-shop{
+    width: 100%;
+    height: 100%;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.menu{
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    background-color:rgb(58, 55, 55);
+    font-family:Battambang;
+    position: relative;
+    z-index:1;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.drop-down{
+    width: 155px;
+    height: 160px;
+    position: absolute;
+    left: 120px;
+    top:40px;
+    background-color:rgb(58, 55, 55);
+    text-align: start;
+    border-radius: 0px 0px 8px 8px;
+    display: none;
+}
+.drop-down li{
+    list-style: none;
+    margin-top: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+.drop-down li:hover{
+    border-radius: 8px;
+    background-color:rgb(167, 119, 55);
+}
+.drop-down li a{
+    color:white;
+    list-style: none;
+    font-family: Poppins;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.menu .nav-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+}

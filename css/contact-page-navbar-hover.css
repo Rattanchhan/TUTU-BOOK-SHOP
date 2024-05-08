@@ -1,0 +1,65 @@
+.menu .home:hover,
+.menu .new-book:hover,
+.menu .discount:hover,
+.menu .about:hover,
+.menu .register:hover,
+.contact:hover{
+    background-color:rgb(167, 119, 55);
+    border-radius: 8px;
+}
+.menu .new-book:hover~ .animation,
+.menu .discount:hover~ .animation,
+.menu .about:hover~.animation,
+.menu .register:hover~.animation{
+    visibility: hidden;
+}
+.menu .new-book{
+    width:175px;
+    height:40px;
+    transition: 0.2s;
+}
+.menu .new-book:hover .drop-down{
+    display: block;
+}
+.menu .service:hover~.drop-down{
+    display: block;
+}
+.menu .new-book:hover .fa-caret-down{
+    transform: rotate(0deg);
+}
+.menu .discount{
+    width:128px;
+    height:40px;
+    transition: 0.2s;
+}
+.menu .about{
+    width:100px;
+    height: 40px;
+    transition: 0.2s;
+}
+.menu .contact{
+    width:120px;
+    height: 40px;
+    transition: 0.2s;
+}
+.menu .register{
+    width:128px;
+    height:40px;
+    transition: 0.2s;
+}
+.animation{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    background-color:rgb(167, 119, 55);
+    top:0px;
+    left:508px;
+    z-index: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.fa-caret-down{
+    margin-left: 5px;
+    transform: rotate(180deg);
+    transition: 0.2s;
+}

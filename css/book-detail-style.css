@@ -1,0 +1,129 @@
+.book-container{
+    width:650px;
+    margin: auto;
+    margin-top: 30px;
+}
+.container-child1{
+    width: 100%;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-family: Poppins-Bold;
+    font-size: 28px;
+}
+.public-shop{
+    font-weight: Poppins;
+}
+.container-child1 .sub-child1{
+    width: 185px;
+    height: 100%;
+}
+.container-child1 .sub-child2{
+    width: 62%;
+    height: 100%;
+    margin-top:-12px;
+}
+.container-child1 .sub-child2 p{
+    font-size: 18px;
+    color:rgb(96,96,96);
+}
+.author{
+    font-family: Poppins-Bold;
+    margin: 10px 0px;
+}
+.sub-child2-top,.sub-child2-bottom{
+    width: 90%;
+    margin:auto;
+}
+.container-child2{
+    width: 60%;
+    height: 40px;
+    display: flex;
+    margin-bottom: 25px;
+}
+.container-child3{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    box-sizing: border-box;
+    padding-top:10px;
+}
+.container-child4{
+    width: 100%;
+    margin-top: 8px;
+}
+.button1 button,.button2 button{
+    width: 120px;
+    height: 40px;
+    border-radius:15px;
+    border:1.5px solid rgb(19, 217, 227);
+    font-family:Poppins-Bold;
+    font-size: 11px;
+    cursor: pointer;
+}
+.button2 button {
+    background-color: rgb(19, 217, 227);
+    margin-left: 20px;
+}
+.container-child2 .sub-child1,.container-child2 .sub-child2,.container-child2 .sub-child3{
+    width: 20%;
+}
+.container-child2 .sub-child1{
+    width: 14%;
+}
+.sub-title1,.sub-title2,.sub-title3{
+    text-align: center;
+    font-size: 10px;
+    color:rgb(96,96,96);
+}
+.line{
+    width: 2px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.sub-line{
+    width: 2px;
+    height: 60%;
+    border-radius: 2px;
+    text-align: center;
+    background-color: brown;
+}
+.sub-title1{
+    text-align:start;
+}
+h4{
+    font-family: Poppins-Bold;
+    text-align: center;
+}
+.fa-globe{
+    margin-left: 10px;
+}
+.image{
+    width: 100%;
+    height: 80%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.5);
+    object-fit: cover;
+}
+.checked{
+    color: orange;
+}
+.star{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.container-child4 p{
+    font-size: 11px;
+    font-family:Poppins-Medium;
+    margin-top:6px;
+    color:rgb(96,96,96);
+}
